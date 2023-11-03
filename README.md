@@ -1,5 +1,5 @@
 # Rock Paper Scissors
-My first big project using JavaScript.
+My first big project using JavaScript, making a simple game of user against the computer.
 ### My personal objectives:
 - Breaking down the project one function at a time
 - Making sure each function works before moving on the next
