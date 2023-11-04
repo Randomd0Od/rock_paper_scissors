@@ -5,7 +5,7 @@
 let user = prompt('Choose ROCK, PAPER, or SCISSORS:');
 let playerChoice = user.toLowerCase();
 
-alert (`You chose ${playerChoice}`);
+//alert (`You chose ${playerChoice}`);
 
 
 //this part works
@@ -32,28 +32,27 @@ console.log(playerChoice, computerChoice);
 
 function whoResult() {
   if (computerChoice === playerChoice) {
-    alert ("It's a draw");
+    return ("It's a draw");
   }
   if (computerChoice === 'rock' && playerChoice === 'paper') {
-    alert ("You Win");
+    return ("You Win");
   }
   if (computerChoice === 'rock' && playerChoice === 'scissors') {
-    alert ("You lose");
+    return ("You lose");
   }
   if (computerChoice === 'paper' && playerChoice === 'scissors') {
-    alert ("You Win");
+    return ("You Win");
   }
   if (computerChoice === 'paper' && playerChoice === 'rock') {
-    alert ("You lose");
+    return ("You lose");
   }
   if (computerChoice === 'scissors' && playerChoice === 'rock') {
-    alert ("You Win");
+    return ("You Win");
   }
   if (computerChoice === 'scissors' && playerChoice === 'paper') {
-    alert ("You lose");
+    return ("You lose");
   }
-
-
-  
-
 }
+
+alert (`You chose: \t\t ${playerChoice}\nComputer chose: \t ${computerChoice}`);
+alert (`${whoResult()}`)
