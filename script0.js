@@ -1,15 +1,4 @@
-
 //
-
-//user chooses
-let user = prompt('Choose ROCK, PAPER, or SCISSORS:');
-let playerChoice = user.toLowerCase();
-
-//alert (`You chose ${playerChoice}`);
-
-
-//this part works
-//*
 //computer choooses
 function getComputerChoice() {
   const randomNumber = Math.floor(Math.random() * 3)
@@ -25,11 +14,15 @@ function getComputerChoice() {
   return (getComputerChoice)
 }
 
-//console.log(getComputerChoice())
+//
+//user chooses
+let user = prompt('Choose ROCK, PAPER, or SCISSORS:');
+let playerChoice = user.toLowerCase();
 
 const computerChoice = getComputerChoice();
 console.log(playerChoice, computerChoice);
 
+//determining who won
 function whoResult() {
   if (computerChoice === playerChoice) {
     return ("It's a draw");
@@ -54,5 +47,7 @@ function whoResult() {
   }
 }
 
-alert (`You chose: \t\t ${playerChoice}\nComputer chose: \t ${computerChoice}`);
-alert (`${whoResult()}`)
+//visual results
+alert (`You chose: \t\t ${playerChoice}
+\nComputer chose: \t ${computerChoice}
+\n${whoResult()}`);
