@@ -12,6 +12,8 @@ My first big project using JavaScript, making a simple game of user against the 
 - Working game for one round
 ### Goals achieved:
 - Works for single round, refresh / F5 for repeat playability
-- Opponent (comp.) sort of random
+- ~Computer (comp.) sort of random~
+- Computer is randomized
 - Results shown through console mode
-- 
+### Problems solved
+- When the player was placed first in the script, the results ended in more draws.  Switching the order, with the computer placed first in making it's choice, the results are more randomized.
