@@ -1,5 +1,10 @@
 //
-//computer choooses
+let game  = "";
+let i = 0;
+while (i < 5) {
+  //text += "<br> the Number Is . . ." + i;
+  i++;
+  //computer choooses
 function getComputerChoice() {
   const randomNumber = Math.floor(Math.random() * 3)
   if (randomNumber === 0) {
@@ -20,7 +25,8 @@ let user = prompt('Choose ROCK, PAPER, or SCISSORS:');
 let playerChoice = user.toLowerCase();
 
 const computerChoice = getComputerChoice();
-console.log(playerChoice, computerChoice);
+//console.log(`Player: `, playerChoice)
+//console.log(`Computer: `, computerChoice)
 
 //determining who won
 function whoResult() {
@@ -48,6 +54,12 @@ function whoResult() {
 }
 
 //visual results
-console.log(`You chose: \t\t ${playerChoice}`)
-console.log(`Computer chose: \t ${computerChoice}`)
-console.log(`${whoResult()}` )
+  console.log(`Game number: `,i);
+  console.log(`  You chose: ${playerChoice}
+  Comp chose: ${computerChoice}
+  ${whoResult()}` )
+  //console.log(`You chose: \t\t ${playerChoice}`)
+  //console.log(`Computer chose: \t ${computerChoice}`)
+  //console.log(`${whoResult()}` )
+  
+}
