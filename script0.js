@@ -48,6 +48,6 @@ function whoResult() {
 }
 
 //visual results
-alert (`You chose: \t\t ${playerChoice}
-\nComputer chose: \t ${computerChoice}
-\n${whoResult()}`);
+console.log(`You chose: \t\t ${playerChoice}`)
+console.log(`Computer chose: \t ${computerChoice}`)
+console.log(`${whoResult()}` )
