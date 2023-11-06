@@ -13,6 +13,8 @@ My first big project using JavaScript, making a simple game of user against the 
 - [x] Working game for 5 rounds, w/ counter
 - [x] Show overall winner / loser after 5 rounds
 - [ ] Show tally of who's winning / losing
+- [ ] Show final score
+- [ ] Option to play again
 ### Goals achieved:
 - ~Works for single round, refresh / F5 for repeat playability~
 - Game now plays through 5 rounds successfully
