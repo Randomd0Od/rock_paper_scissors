@@ -7,11 +7,12 @@ My first big project using JavaScript, making a simple game of user against the 
 - Not to worry about looks, but functionality
 - ...but still keep it clean
 ### Project objectives:
-- Show results successfully through 'console' mode
-- Randomized choice for computer
-- Working game for one round
-- Working game for 5 rounds, w/ counter
-- Show overall winner / loser after 5 rounds
+- [x] Show results successfully through 'console' mode
+- [x] Randomized choice for computer
+- [x] Working game for one round
+- [x] Working game for 5 rounds, w/ counter
+- [x] Show overall winner / loser after 5 rounds
+- [ ] Show tally of who's winning / losing
 ### Goals achieved:
 - ~Works for single round, refresh / F5 for repeat playability~
 - Game now plays through 5 rounds successfully
