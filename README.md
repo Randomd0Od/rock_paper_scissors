@@ -12,7 +12,7 @@ My first big project using JavaScript, making a simple game of user against the 
 - [x] Working game for one round
 - [x] Working game for 5 rounds, w/ counter
 - [x] Show overall winner / loser after 5 rounds
-- [ ] Show tally of who's winning / losing
+- [x] Show tally of who's winning / losing
 - [ ] Show final score
 - [ ] Option to play again
 ### Goals achieved:
@@ -25,3 +25,4 @@ My first big project using JavaScript, making a simple game of user against the 
 ### Problems solved
 - When the player was placed first in the script, the results ended in more draws.  Switching the order, with the computer placed first in making it's choice, the results are more randomized.
 - For visually neater display of each round's result, I opted to stack the outcomes line by line, which required coding it in `template literal`, which really does mean **literal**, what you see is what you get (WYSIWYG).  
+- When the `return` statement exits the `function`, that's it.  Anything that should be executed along with the function needs to be placed before the `return`.
